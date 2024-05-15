@@ -16,7 +16,7 @@ let oOrders = {};
 app.post("/sms", (req, res) =>{
     let sFrom = req.body.From || req.body.from;
     if(!oOrders.hasOwnProperty(sFrom)){
-        oOrders[sFrom] = new ShwarmaOrder();
+        oOrders[sFrom] = new BagsOrder();
     }
     let sMessage = req.body.Body|| req.body.body;
     let aReply = oOrders[sFrom].handleInput(sMessage);
