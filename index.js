@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require("body-parser");
-const ShwarmaOrder = require("./assignment1Bags");
+const BagsOrder = require("./assignment1Bags");
 
 // Create a new express application instance
 const app = express();
