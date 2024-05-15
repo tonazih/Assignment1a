@@ -9,7 +9,7 @@ To run:
 
 ## Assignment 1
 
-Create an order bot for your favourite shoes. You need to have at least 2  Shoes type  available. The options items need to have size and one other attribute like Colour. You also need an up-sell another item like Cleaner in the example.
+Create an order bot for your favourite Jackets. You need to have at least 2 Jackets type  available. The options items need to have size and one other attribute like Colour. You also need an up-sell another item like Cleaner in the example.
 
 ### Marking
 
